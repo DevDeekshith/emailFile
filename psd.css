@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;padding: 0;
     box-sizing: border-box;
 }
@@ -46,4 +46,82 @@ input {
     position: relative;
     left: 8%;
 }
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#show-psd-btn,
+#hide-psd-btn {
+  width: 40px; /* reduced width for mobile screens */
+  height: 20px; /* reduced height for mobile screens */
+  position: relative;
+  left: 5%; /* adjusted left position for mobile screens */
+  cursor: pointer;
+}
+
+#submit {
+  margin-top: 50px; /* reduced margin-top for mobile screens */
+  position: relative;
+  right: 20%; /* adjusted right position for mobile screens */
+  width: 80px; /* reduced width for mobile screens */
+  height: 25px; /* reduced height for mobile screens */
+  font-size: 18px; /* reduced font-size for mobile screens */
+  cursor: pointer;
+  background-color: rgba(48, 116, 243, 0.932);
+}
+
+#container {
+  height: 30%; /* reduced height for mobile screens */
+  width: 80%; /* increased width for mobile screens */
+  background-color: #dad5d5;
+  color: #ffffff8f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 80%; /* increased width for mobile screens */
+  height: 25px; /* reduced height for mobile screens */
+  border: 2px solid transparent;
+  border-radius: 3%;
+  position: relative;
+  left: 5%; /* adjusted left position for mobile screens */
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+  #container {
+    height: 40vh; /* adjusted height for mobile screens */
+    width: 90%; /* increased width for mobile screens */
+  }
+
+  input {
+    font-size: 16px; /* reduced font-size for mobile screens */
+  }
+
+  #submit {
+    font-size: 16px; /* reduced font-size for mobile screens */
+  }
+}
+
+
+
+
+
+
+
 
