@@ -94,7 +94,7 @@ body {
 }
 
 input {
-  width: 80%; /* increased width for mobile screens */
+  width: 40%; /* increased width for mobile screens */
   height: 25px; /* reduced height for mobile screens */
   border: 2px solid transparent;
   border-radius: 3%;
@@ -106,11 +106,13 @@ input {
 @media only screen and (max-width: 768px) {
   #container {
     height: 40vh; /* adjusted height for mobile screens */
-    width: 90%; /* increased width for mobile screens */
+    width: 100%; /* increased width for mobile screens */
   }
 
   input {
-    font-size: 16px; /* reduced font-size for mobile screens */
+    font-size: 16px;/* reduced font-size for mobile screens */
+      width:20vh;
+    
   }
 
   #submit {
