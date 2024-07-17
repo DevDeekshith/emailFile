@@ -25,3 +25,12 @@
  hr {
     margin-top: 100px;
  }
+
+
+@media only screen and (max-width: 768px) {
+#emailPsdOne {
+    height:4vh; width:6vh;
+    
+}
+}
+
