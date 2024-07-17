@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;padding: 0;
     box-sizing: border-box;
 }
@@ -46,10 +46,9 @@ input {
     position: relative;
     left: 8%;
 }
-*/
 
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -61,27 +60,27 @@ body {
 
 #show-psd-btn,
 #hide-psd-btn {
-  width: 40px; /* reduced width for mobile screens */
-  height: 20px; /* reduced height for mobile screens */
+  width: 40px; 
+  height: 20px; 
   position: relative;
-  left: 5%; /* adjusted left position for mobile screens */
+  left: 5%; 
   cursor: pointer;
 }
 
 #submit {
-  margin-top: 50px; /* reduced margin-top for mobile screens */
+  margin-top: 50px;
   position: relative;
-  right: 20%; /* adjusted right position for mobile screens */
-  width: 80px; /* reduced width for mobile screens */
-  height: 25px; /* reduced height for mobile screens */
-  font-size: 18px; /* reduced font-size for mobile screens */
+  right: 20%; 
+  width: 80px; 
+  height: 25px; 
+  font-size: 18px; 
   cursor: pointer;
   background-color: rgba(48, 116, 243, 0.932);
 }
 
 #container {
-  height: 30%; /* reduced height for mobile screens */
-  width: 80%; /* increased width for mobile screens */
+  height: 30%; 
+  width: 80%; 
   background-color: #dad5d5;
   color: #ffffff8f;
   position: absolute;
@@ -94,32 +93,32 @@ body {
 }
 
 input {
-  width: 40%; /* increased width for mobile screens */
-  height: 25px; /* reduced height for mobile screens */
+  width: 40%; 
+  height: 25px; 
   border: 2px solid transparent;
   border-radius: 3%;
   position: relative;
-  left: 5%; /* adjusted left position for mobile screens */
+  left: 5%; 
 }
 
-/* Media query for mobile screens */
+
 @media only screen and (max-width: 768px) {
   #container {
-    height: 40vh; /* adjusted height for mobile screens */
-    width: 100%; /* increased width for mobile screens */
+    height: 40vh; 
+    width: 100%; 
   }
 
   input {
-    font-size: 16px;/* reduced font-size for mobile screens */
+    font-size: 16px;
       width:20vh;
     
   }
 
   #submit {
-    font-size: 16px; /* reduced font-size for mobile screens */
+    font-size: 16px; 
       
   }
-}
+} */
 
 
 
